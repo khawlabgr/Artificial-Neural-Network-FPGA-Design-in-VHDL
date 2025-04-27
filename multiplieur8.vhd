@@ -1,31 +1,17 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    15:06:09 12/02/2024 
--- Design Name: 
+-- Engineer: Khawla BOUGHERARA
+-- Create Date:    11:34:03 12/08/2024 
 -- Module Name:    multiplieur8 - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Project Name: Artificial-Neural-Network-FPGA-Design-in-VHDL
+-- Target Devices: FPGA
+-- Tool versions: XILINX ISE
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
----- Uncomment the following library declaration if instantiating
----- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+
 
 entity multiplieur8 is
     Port ( a : in  STD_LOGIC_VECTOR (7 downto 0);
