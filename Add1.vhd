@@ -1,31 +1,16 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-- Engineer: Khawla BOUGHERARA
 -- Create Date:    11:34:03 12/08/2024 
--- Design Name: 
 -- Module Name:    Add1 - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Project Name: Artificial-Neural-Network-FPGA-Design-in-VHDL
+-- Target Devices: FPGA
+-- Tool versions: XILINX ISE
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
----- Uncomment the following library declaration if instantiating
----- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity Add1 is
     Port ( A : in  STD_LOGIC;
