@@ -1,31 +1,17 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    14:31:14 12/08/2024 
--- Design Name: 
+-- Engineer: Khawla BOUGHERARA
+-- Create Date:    11:34:03 12/08/2024 
 -- Module Name:    rom - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Project Name: Artificial-Neural-Network-FPGA-Design-in-VHDL
+-- Target Devices: FPGA
+-- Tool versions: XILINX ISE
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
----- Uncomment the following library declaration if instantiating
----- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+
 
 entity rom is
     Port ( adress : in  STD_LOGIC_VECTOR (2 downto 0);
