@@ -60,5 +60,15 @@ This repository includes the following files:
 
 ---
 
+## Contributions
+
+Feel free to fork the repository and submit pull requests if you'd like to contribute to the development or enhancement of this project.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
